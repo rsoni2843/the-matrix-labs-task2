@@ -1,0 +1,34 @@
+.navbar {
+  display: flex;
+  gap: 2%;
+  width: 100%;
+  height: 10vh;
+  justify-content: end;
+  align-items: center;
+  background: #1e1e1e;
+  color: white;
+}
+.navbar button:nth-last-child(1) {
+  margin-right: 5%;
+}
+
+.navbar button {
+  box-sizing: border-box;
+  border: 2px solid #71c7ec;
+  border-radius: 10px;
+  height: 51px;
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+  color: #ffffff;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  background: none;
+}
+.navbar button:nth-child(2) {
+  background: #71c7ec;
+}
